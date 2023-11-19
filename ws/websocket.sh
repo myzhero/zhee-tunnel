@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO="https://raw.githubusercontent.com/zheevpn/a/main/"
+REPO="https://raw.githubusercontent.com/myzhero/zhee-tunnel/main/"
 cd
 cd /usr/local/bin/
 wget -O ws-stunnel ${REPO}ws/ws-stunnel && chmod +x ws-stunnel
