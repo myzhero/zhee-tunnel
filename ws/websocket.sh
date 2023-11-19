@@ -11,4 +11,5 @@ systemctl daemon-reload
 systemctl enable ws-stunnel.service
 systemctl start ws-stunnel.service
 systemctl restart ws-stunnel.service
+rm -rf websocket.sh
 clear
